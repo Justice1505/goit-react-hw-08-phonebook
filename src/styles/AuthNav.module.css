@@ -1,0 +1,14 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 700;
+  color: #000;
+}
+.link:hover {
+  color: white;
+}
+.activeLink {
+  color: #ffffff;
+  text-decoration: underline;
+}

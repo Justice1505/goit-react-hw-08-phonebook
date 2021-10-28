@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.inputName,
+.inputTel {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.submitName {
+  width: 100px;
+}
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  background: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: #000000 solid 1px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #000;
+}
+.btn:hover,
+.btn:focus {
+  box-shadow: 4px 4px 9px green;
+  color: white;
+  background: yellowgreen;
+  border: green solid 1px;
+}
+                        

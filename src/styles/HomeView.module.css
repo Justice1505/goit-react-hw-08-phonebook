@@ -1,0 +1,23 @@
+.container {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 80px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+}
+
+.text {
+  margin-top: 20px;
+  width: 480px;
+  font-size: 14px;
+  font-weight: 500;
+  word-spacing: 5px;
+}
